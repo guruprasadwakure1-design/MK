@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';const routes=['','about','experience','projects','patents','research','blog','resume','contact'];export default function sitemap():MetadataRoute.Sitemap{return routes.map(r=>({url:`https://example.com/${r}`,lastModified:new Date(),changeFrequency:'monthly',priority:r?0.8:1}))}
