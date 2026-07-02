@@ -1,4 +1,7 @@
 {
+  "name": "engineering-innovation-portfolio",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -22,5 +25,8 @@
     "postcss": "latest",
     "tailwindcss": "^3.4.17",
     "typescript": "latest"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }

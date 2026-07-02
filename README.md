@@ -27,6 +27,10 @@ Open http://localhost:3000.
 npm run build
 ```
 
+## Vercel Deployment
+
+This repository includes `vercel.json` so Vercel detects the project as a Next.js app, installs dependencies, runs `npm run build`, and serves the generated `.next` output from the repository root. If Vercel still returns a platform-level `404: NOT_FOUND`, verify the Vercel project Root Directory is set to the repository root and that the production domain points to the latest successful deployment.
+
 ## Customization
 
 - Replace profile, projects, skills, patents, awards, and research in `data/site.ts`.
