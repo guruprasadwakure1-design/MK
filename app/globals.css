@@ -1,0 +1,5 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{color-scheme:light;--bg:#f8fafc;--fg:#0b1220} .dark{color-scheme:dark;--bg:#050b14;--fg:#f8fafc} html{scroll-behavior:smooth} body{background:var(--bg);color:var(--fg)}
+.glass{background:rgba(255,255,255,.68);backdrop-filter:blur(22px);border:1px solid rgba(148,163,184,.22)}.dark .glass{background:rgba(7,26,51,.58)}
+.grid-bg{background-image:linear-gradient(rgba(15,23,42,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(15,23,42,.08) 1px,transparent 1px);background-size:48px 48px}.dark .grid-bg{background-image:linear-gradient(rgba(255,255,255,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.06) 1px,transparent 1px)}
+.prose pre{overflow:auto;border-radius:1rem;padding:1rem;background:#0b1220;color:white}.cursor-dot{position:fixed;inset:auto;pointer-events:none;z-index:60;width:18px;height:18px;border-radius:999px;border:1px solid #f97316;transform:translate(-50%,-50%)}
