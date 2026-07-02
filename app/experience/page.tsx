@@ -1,0 +1,2 @@
+import {Timeline} from '@/components/sections';import {Card,Section} from '@/components/ui';
+export const metadata={title:'Experience'};export default function Page(){return <Section title="Experience timeline" eyebrow="Companies & roles"><div className="grid gap-6"><Card><h3 className="text-2xl font-bold">Senior Engineering Innovation Leader — Placeholder Company</h3><p className="mt-2">Led product development, CAD/FEA validation, design reviews, mining equipment reliability improvements, and cross-functional launch readiness.</p></Card><Timeline/></div></Section>}
